@@ -13,7 +13,7 @@
 			margin:20px auto;
 		}
 		header nav{
-			background:rgb(36, 41, 117);
+			
 			overflow:hidden; /*desbordarse:oculto*/
 		}
 		header nav ul{
@@ -108,13 +108,27 @@
 		}
 		 
 		.tms{
-			background:rgb(56, 158, 61);
+			background:rgb(77, 230, 230);
 			margin: 0px 150px;
 			padding: 0px 100px;
+		}
+
+		.rmar{
+			font-size: 30px;
+			background: rgb(25, 37, 48);
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+			display:block;
+        
+            border-radius:50%;
+            
+            border: 10px solid rgb(54, 5, 233);
+
 		}
 		.tmsedi{
 			
 			color: black;
+			font-size: 30px;
 		}
 		
 		.tex{
