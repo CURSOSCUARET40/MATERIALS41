@@ -1,53 +1,23 @@
 <html>
     <head>
         <title>Æ</title>
-        <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" >
     </head>
-    <style>
-		*{
-		
-			text-align: center;
-			}
-		body{
-			background:linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(255, 255, 255), rgb(238, 29, 29), rgb(255, 123, 0) ,rgb(224, 238, 29),rgb(25, 216, 25),rgb(25, 216, 206),rgb(44, 87, 226),rgb(183, 46, 201));
-		}
-		img{
-margin: 2% 5% 2% 5%;
-
-			border-radius:7%;
-            box-shadow:5% 5% 5% rgb(189, 66, 148);
-			border: 5px solid rgb(0, 0, 0)
-		}
-		iframe{
-				border-radius:4%;
-            box-shadow:2% 5% 5% rgb(202, 57, 154);
-			border: 4% solid rgb(161, 42, 161);
-		}
-	</style>           
+         
     <body>
-		<div class="iris">
-			<img  src="images/flor.jpg"  width="30%" height="40%" alt="logo">
-		</div>
-        <audio src="images/music1.mp3" id="my_audio" controls autoplay loop="loop"></audio>
-			<script type="text/javascript">
-			  window.onload=function(){
-				document.getElementById("my_audio").play();
-			  }
-			</script>
-            <div class="iris">
-                <img  src="images/logo.jpg"  alt="logo">
-            </div>
-			
-			<div>
-                <img src="images/ea.jpg"  alt="logo">
-            </div>
 
-			<iframe src="https://drive.google.com/file/d/1wUAkSHy3AxwVBymDt_g3lIiNzJJ8GNmO/preview" ></iframe>  
-	<hr>
-	<iframe width="683" height="384" src="https://www.youtube.com/embed/aqFnqFt25dg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		
-		
-		</body>
+		<h1>INICIA SESION</h1>
+	<script src="js/countdown.js"></script>
+    <form name="form" action="INICIO SESION">
+
+        <p>nombres: <input type="text" name="login">
+        <p>año nacimiento: <input type="text" name="nacimiento">
+        <p>fruta preferida: <input type="text" name="password">
+        <p>primer reencuentro: <input placeholder="dia/mes/20__" type="text" name="reencuentro">
+            <br>
+            <input onclick="ir()" type="button" value="INICIAR">
+    </form>
+  
+	</body>
 
 
 </html>
